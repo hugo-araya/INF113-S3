@@ -1,0 +1,14 @@
+
+# Calculo de la potencia de un numero entero
+
+Inicio
+	Entero base, exponente, i, potencia
+	Leer base, exponente
+	i = 1
+	potencia = 1
+	Mientras i <= exponente
+		potencia = base * potencia
+		i = i + 1
+	Fin mientras
+	Escribir potencia
+Fin
