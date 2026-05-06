@@ -1,0 +1,14 @@
+
+
+Inicio
+	Entero numero, es_mul_3
+	es_mul_3 = False
+	Leer numero
+	Si numero%3 == 0 Entonces
+		es_mul_3 = True
+	Fin Si
+	Si es_mul_3 == True Entonces
+		Escribir "Es multiplo de 3"
+	Fin Si
+Fin
+	

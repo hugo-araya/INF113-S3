@@ -1,0 +1,18 @@
+
+Inicio
+	Entero numero, divisor, es_primo
+	es_primo = True
+	Leer numero
+	divisor = 2
+	Mientras divisor < numero
+		Si numero%divisor == 0 Entonces
+			es_primo = False
+		Fin Si
+		divisor = divisor + 1 (divisor++)
+	Fin Mientras
+	Si es_primo == True Entonces
+		Escribir "Es un numero primo"
+	Si no
+		Escribir "NO es primo"
+	Fin Si
+Fin

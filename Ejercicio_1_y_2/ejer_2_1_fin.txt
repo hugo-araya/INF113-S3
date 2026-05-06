@@ -1,0 +1,28 @@
+Inicio
+	Entero numero, es_mul_5, es_mul_3
+	numero = 1
+	Mientras numero <= 100
+		es_mul_3 = False
+		es_mul_5 = False
+		Si numero%3 == 0 Entonces
+			es_mul_3 = True
+		Fin Si
+		Si numero%5 == 0 Entonces
+			es_mul_5 = True
+		Fin Si
+		Si es_mul_3 == True Y es_mul_5 == True Entonces
+			Escribir "fizzbuzz"
+		Si no
+			Si es_mul_3 == True Entonces
+				Escribir "fizz"
+			Si no
+				Si es_mul_5 == True Entonces
+					Escribir "buzz"
+				Si no
+					Escribir numero
+				Fin Si
+			Fin Si
+		Fin Si
+		numero = numero +1
+	Fin Mientras
+Fin

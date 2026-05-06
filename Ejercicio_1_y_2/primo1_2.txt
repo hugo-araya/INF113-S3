@@ -1,0 +1,38 @@
+
+Inicio
+	Entero numero, divisor, es_primo
+
+	numero = 4
+	Escribir "1"
+	Escribir "2"
+	Escribir "3"	
+	Mientras numero <= 100
+		divisor = 2
+		es_primo = True
+		Mientras divisor < numero
+			Si numero%divisor == 0 Entonces
+				es_primo = False
+			Fin Si
+			divisor = divisor + 1 (divisor++)
+		Fin Mientras
+		Si es_primo == True Entonces
+			Escribir numero
+		Fin Si
+		numero = numero + 1
+	Fin Mientras
+Fin
+
+TRAZA
+
+numero | divisor | es_primo
+4		2			True
+					False
+		3
+		4
+5
+		2
+					True
+		3
+		4
+		5
+		

@@ -1,0 +1,16 @@
+Inicio
+	Entero numero, es_mul_3
+	numero = 1
+	Mientras numero <= 100
+		es_mul_3 = False
+		Si numero%3 == 0 Entonces
+			es_mul_3 = True
+		Fin Si
+		Si es_mul_3 == True Entonces
+			Escribir "fizz"
+		Si no
+			Escribir numero
+		Fin Si
+		numero = numero + 1
+	Fin Mientras
+Fin
