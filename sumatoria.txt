@@ -1,0 +1,22 @@
+Inicio
+    Entero N, i, j, potencia
+    Real termino, suma
+
+    Leer N 
+    i = 0
+    suma = 0
+    Mientras i < N 
+        potencia = 1
+        j = 0
+	    Mientras j < i
+		    potencia = (-1) * potencia
+		    j = j + 1
+	    Fin mientras
+        termino = potencia/(2*i +1)
+        suma = suma + termino
+        i = i + 1
+    Fin mientras
+    Escribir suma
+Fin
+
+
