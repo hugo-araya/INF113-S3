@@ -4,7 +4,7 @@ int main(){
     int n, i = 0;
     int t1 = 0, t2 = 1, siguienteTermino;
     printf("Ingrese un numero entero: ");
-    scanf("%f", &n);
+    scanf("%d", &n);
     // Aqui va el mientras 
     while (i <= n){
         siguienteTermino = t1 + t2;
