@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int N, i, j, potencia = -1;
+    int N, i, potencia = -1;
     float termino, suma;
     printf("Ingrese la cantidad de terminos: ");
     scanf("%d", &N); 
